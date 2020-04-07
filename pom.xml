@@ -11,7 +11,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.smarttax</groupId>
     <artifactId>smart-swagger</artifactId>
-    <version>2.0.0-SNAPSHOT</version>
+    <version>2.0.1-SNAPSHOT</version>
 
     <name>smart-swagger</name>
 
@@ -49,6 +49,20 @@
             <groupId>com.github.xiaoymin</groupId>
             <artifactId>swagger-bootstrap-ui</artifactId>
             <version>1.9.6</version>
+        </dependency>
+
+
+        <!--使用1.5.22 解决Integer初始化问题 -->
+        <dependency>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-annotations</artifactId>
+            <version>1.5.22</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-models</artifactId>
+            <version>1.5.22</version>
         </dependency>
     </dependencies>
 
