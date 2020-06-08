@@ -69,28 +69,16 @@
     <!--用于download-->
     <repositories>
         <repository>
-            <id>smart-nexus</id>
-            <name>Nexus Public Repository</name>
-            <url>http://47.100.216.77:8082/repository/maven-public/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
+            <id>rdc-snapshots</id>
+            <url>https://repo.rdc.aliyun.com/repository/124956-snapshot-jMwdvf/</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
             </snapshots>
         </repository>
         <repository>
-            <id>smart-snapshots</id>
-            <url>http://47.100.216.77:8082/repository/maven-snapshots/</url>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>smart-releases</id>
-            <url>http://47.100.216.77:8082/repository/maven-releases/</url>
+            <id>rdc-releases</id>
+            <url>https://repo.rdc.aliyun.com/repository/124956-release-2B40ml/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -100,12 +88,12 @@
     <!--用于deploy-->
     <distributionManagement>
         <snapshotRepository>
-            <id>smart-snapshots</id>
-            <url>http://47.100.216.77:8082/repository/maven-snapshots/</url>
+            <id>rdc-snapshots</id>
+            <url>https://repo.rdc.aliyun.com/repository/124956-snapshot-jMwdvf/</url>
         </snapshotRepository>
         <repository>
-            <id>smart-releases</id>
-            <url>http://47.100.216.77:8082/repository/maven-releases/</url>
+            <id>rdc-releases</id>
+            <url>https://repo.rdc.aliyun.com/repository/124956-release-2B40ml/</url>
         </repository>
     </distributionManagement>
 
